@@ -110,5 +110,5 @@ async function getTime(){
     backgroundImg = bgGn;
   }
 
-  // backgroundImg = loadImage(bg);
+  backgroundImg = loadImage(bg);
 }
