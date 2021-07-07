@@ -62,6 +62,10 @@ function draw() {
 
     background(backgroundImg);
   }
+  else
+  {
+    background(12);
+  }
   Engine.update(engine);
   text("X"+mouseX+"  Y"+ mouseY , 50, 50);
   
@@ -110,5 +114,5 @@ async function getTime(){
     backgroundImg = bgGn;
   }
 
-  backgroundImg = loadImage(bg);
+  // backgroundImg = loadImage(bg);
 }
